@@ -1,7 +1,10 @@
 var myFullpage = new fullpage('#fullpage', {
-    sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+    sectionsColor: ['#efefef', '#60a8bf', '#f4efab', '#a65369'],
     scrollBar: false,
-    navigation: true,
+    navigation: false,
     navigationPosition: 'right',
-    navigationTooltips: ['Hi', 'Was geht'],
+    fixedElements: '#nav',
+    menu: '#nav',
+    anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage'],
+    paddingTop: '50px',
 });

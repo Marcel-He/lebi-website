@@ -1,17 +1,59 @@
-
-/* main.css 1.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
-
- 
 /* ==========================================================================
    Base styles
    ========================================================================== */
+body {
+}
 
 .section {
     text-align: center;
     font-size: 3em;
+}
+
+.grid {
+    background-color: red;
+    width: 100%;
+    margin: 4rem;
+}
+
+/* ==========================================================================
+   Navigation Styles
+   ========================================================================== */
+
+nav {
+    position: fixed;
+    top: 1rem;
+    right: 0;
+    margin-right: 5%;
+    z-index: 100;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 1rem;
+}
+nav li a {
+    font-weight: normal;
+    font-style: normal;
+    padding: 8px 20px;
+    color: #fff !important;
+    border-radius: 20px;
+    background-color: #ffc228;
+    box-shadow: 0 7px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* ==========================================================================
+   First Slide Styles
+   ========================================================================== */
+
+.intro {
+    text-align: left;
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+.lebi-intro {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
 }
